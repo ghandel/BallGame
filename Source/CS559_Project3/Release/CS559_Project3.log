@@ -1,0 +1,38 @@
+﻿Build started 3/19/2014 3:07:59 PM.
+     1>Project "C:\Users\Garret\Google Drive\School\CompSci 559\CS559_Project3\CS559_Project3\CS559_Project3\CS559_Project3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\freeglut\include /I"C:\glew-1.10.0\include" /I"C:\Users\Garret\Google Drive\School\CompSci 559\CS559_Project3\CS559_Project3\FreeImage\Dist" /I"C:\Program Files\freeglut\include" /I"C:\Program Files\freetype-2.4.6\include" /I"C:\Program Files\glew-1.7.0\include" /I"C:\Program Files\glm-0.9.3.4" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Garret\Google Drive\School\CompSci 559\CS559_Project3\CS559_Project3\Release\CS559_Project3.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Garret\Google Drive\School\CompSci 559\CS559_Project3\CS559_Project3\FreeImage\Dist" /LIBPATH:"C:\Program Files\freeglut\lib" /LIBPATH:"C:\Program Files\freetype-2.4.6\objs\win32\vc2010" /LIBPATH:"C:\Program Files\glm-0.9.3.4" /LIBPATH:"C:\Program Files\glew-1.7.0\lib" freeglut.lib glew32.lib FreeImage.lib freetype246.lib freetype246_D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Garret\Google Drive\School\CompSci 559\CS559_Project3\CS559_Project3\Release\CS559_Project3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Garret\Google Drive\School\CompSci 559\CS559_Project3\CS559_Project3\Release\CS559_Project3.lib" /MACHINE:X86 /SAFESEH Release\ArenaWall.obj
+         Release\BallController.obj
+         Release\Camera.obj
+         Release\fbo.obj
+         Release\globals.obj
+         Release\GodView.obj
+         Release\Jombotron.obj
+         Release\JumbotronScreen.obj
+         Release\Light.obj
+         Release\main.obj
+         Release\object.obj
+         Release\Pile.obj
+         Release\Player.obj
+         Release\Shader.obj
+         Release\Skybox.obj
+         Release\SkyboxFacet.obj
+         Release\Status.obj
+         Release\TestBall.obj
+         Release\TextManager.obj
+         Release\TextureManager.obj
+         Release\Timer.obj
+         Release\util.obj
+         Release\vertexattributes.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         CS559_Project3.vcxproj -> C:\Users\Garret\Google Drive\School\CompSci 559\CS559_Project3\CS559_Project3\Release\CS559_Project3.exe
+     1>Done Building Project "C:\Users\Garret\Google Drive\School\CompSci 559\CS559_Project3\CS559_Project3\CS559_Project3\CS559_Project3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.77

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vertexattributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxFacet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArenaWall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BallController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fbo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jombotron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JumbotronScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GodView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Status.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexattributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxFacet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArenaWall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BallController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fbo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jumbotron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JumbotronScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GodView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gl\freeglut\include\GL\freeglut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Documents\Visual Studio 2012\Projects\CS559_Test\FreeImage\Dist\FreeImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="phong_shader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phong_shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phong_shader_reflect.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phong_shader_reflect.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skybox_shader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skybox_shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skybox_shader_reflect.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skybox_shader_reflect.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="godview.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="godview.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phong_shader_perlin.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phong_shader_perlin.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phong_shader_perlin_reflect.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phong_shader_perlin_reflect.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_shader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_float_shader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="font_float_shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="basic_shader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="basic_shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="brick_shader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="brick_shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="colored_shader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="colored_shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flat_shader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flat_shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gouraud_shader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gouraud_shader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
